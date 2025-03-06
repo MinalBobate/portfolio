@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/HeroImage.jpg";
+import HeroImg from "../../images/MyImage.jpg";
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -44,7 +44,7 @@ const HeroInnerContainer = styled.div`
 `;
 const HeroLeftContainer = styled.div`
   width: 100%;
-  order: 1;
+  order: 2;
   @media (max-width: 960px) {
     order: 2;
     margin-bottom: 30px;
@@ -56,9 +56,9 @@ const HeroLeftContainer = styled.div`
 `;
 const HeroRightContainer = styled.div`
   width: 100%;
-  order: 2;
+  order: 1;
   display: flex;
-  justify-content: end;
+  justify-content: start;
   @media (max-width: 960px) {
     order: 1;
     display: flex;

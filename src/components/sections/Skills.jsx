@@ -58,6 +58,7 @@ const SkillsContainer = styled.div`
 const Skill = styled.div`
   width: 100%;
   max-width: 500px;
+  min-height: 293px;
   background-color: rgba(17, 25, 40, 0.83);
   border: 1px solid rgba(255, 255, 255, 0.125);
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
@@ -88,6 +89,7 @@ const SkillList = styled.div`
   flex-wrap: wrap;
   gap: 12px;
   margin-bottom: 20px;
+  // height: 200px;
 `;
 const SkillItem = styled.div`
   font-size: 16px;
@@ -125,8 +127,7 @@ const Skills = () => {
             marginBottom: "40px",
           }}
         >
-          Here are some of my skills on which I have been working on for the
-          past 3 years.
+          I have a wide range of skills and experience in web development. Here are some of the technologies I have worked with.
         </Desc>
 
         <SkillsContainer>
